@@ -9,7 +9,7 @@ JOBS =[{'id':1,
          'location': 'Delhi',
          'salary': 'Rs. 11,00,000'
          }]
-
+@app.route('/')
 def hello_world():
     return render_template('home.html',jobs=JOBS)
 
