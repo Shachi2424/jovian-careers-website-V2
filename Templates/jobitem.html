@@ -6,7 +6,7 @@
         <div>{{ job.salary }}</div>
     </div>
     <div class="col-3 text-right"> <!-- Modified this line -->
-        <button type="button" class="btn btn-dark">Apply</button>
+        <a href="mailto:hello@jovian.ai?subject=Application for {{job['title']}}" type="button" class="btn btn-dark">Apply</button>
     </div>
 </div>
 {% endfor %}
